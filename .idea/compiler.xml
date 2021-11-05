@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="j2ee-td3" target="1.8" />
+      <module name="j2ee-td3" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

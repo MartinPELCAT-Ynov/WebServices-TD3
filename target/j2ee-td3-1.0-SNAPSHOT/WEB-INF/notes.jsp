@@ -15,8 +15,6 @@
     </li>
     <% } %>
 </ul>
-
-
 <form method="get" action="/note/add">
     <input type="text" name="note" placeholder="note" autofocus/>
     <input type="submit" value="Add"/>
