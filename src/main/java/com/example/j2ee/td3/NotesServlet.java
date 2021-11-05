@@ -22,10 +22,7 @@ public class NotesServlet extends HttpServlet {
         if (notes == null) {
             notes = new ArrayList<>();
         }
-
         req.setAttribute("notes", notes);
         getServletContext().getRequestDispatcher("/WEB-INF/notes.jsp").forward(req, resp);
-
-
     }
 }
